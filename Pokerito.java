@@ -28,13 +28,13 @@ public class Pokerito {
         System.out.println("Here's the computer's card: ");
         System.out.println(computerCard);
 
-        int yourMatches = 0;
-        int computerMatches =0;
-
         /*********************************************************/
 
          System.out.println("Now, the dealer will draw five cards.");
          scan.nextLine();
+
+         int yourMatches = 0;
+         int computerMatches = 0;
 
          for (int i = 1; i <= 5; i++) {
             String draw = randomCard();
